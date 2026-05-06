@@ -13,7 +13,7 @@ class Student{
 };
 
 int main(){
-    Student a = Student();
+    Student a;
     a.name = "Ayush"; //"." is called the member access operator
     a.greet();
     return 0;
