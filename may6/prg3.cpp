@@ -3,7 +3,6 @@
 using namespace std;
 class Customer{
     int balance=0;
-    int pin;
     string name;
     public:
     Customer(string name,int openingBalance){

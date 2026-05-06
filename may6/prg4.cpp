@@ -20,7 +20,10 @@ class Student{
 };
 
 int main(){
-    Student s1("ayush", 21);
-    s1.display();
+    Student("ayush", 21);
+    Student.display();
+    {
+
+    }
     return 0;
 }
